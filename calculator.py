@@ -1,15 +1,15 @@
 import math
 
-<<<<<<< HEAD
+
 def square_root(a):
     return math.sqrt(a)
     if a <0:
         raise ValueError
 def hypotenuse(a,b):
     return math.hypot(a,b)
-=======
+
 #Partner 1
->>>>>>> 979e86e0736afda4c9161ef562772e27832d0d6f
+
 def add(a,b):
     return a+b
 
