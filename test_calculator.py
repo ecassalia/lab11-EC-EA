@@ -78,9 +78,10 @@ class TestCalculator(unittest.TestCase):
     #     fill in code
     def test_sqrt(self):
         with self.assertRaises(ValueError):
-            square_root = -1
+            square_root(-1)
         self.assertEqual(square_root(4), 2.0)
         self.assertEqual(square_root(0), 0.0)
+        self.assertEqual(square_root(9), 3.0)
 
 # Do not touch this
 if __name__ == "__main__":
